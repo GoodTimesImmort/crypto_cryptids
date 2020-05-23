@@ -1,0 +1,3 @@
+This file can be changed to an index file or deleted. 
+
+Testing a SSH commit for G.T. with a pgp signature. 
