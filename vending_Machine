@@ -1,0 +1,54 @@
+import random
+cryptid_price = str(1)
+
+#cryptid_inventory = {"Type": "Stock": "Story"}
+#    {"Unicorn", 1, "story_cryptid_01"},
+#    {"Cryptid", 11, "story_cryptid_02"},
+#    {"Cryptid", 11, "story_cryptid_03"},
+#    {"Cryptid", 11," story_cryptid_04"},
+#    {"Cryptid", 11, "story_cryptid_05"},
+#    {"Cryptid", 11, "story_cryptid_06"},
+#    {"Cryptid", 11, "story_cryptid_07"},
+#    {"Cryptid", 11, "story_cryptid_08"},
+#    {"Cryptid", 11, "story_cryptid_09"},
+#    {"Cryptid", 11, "story_cryptid_10"}
+                    }
+#Should be noted tha this inventory can serve as a trigger for the unicorn lottery
+#Once 99 cryptids are sold, the unicorn is raffled to one of the wallets and included in the contract. 
+    
+## Informing the user of the choices available
+#def story_cryptid:
+#print ("There are 9 cryptids looking for freedom")
+#input("Choose a number from 1 to 9 to read that crypto-cryptid's story. Cryptid_0")
+##can bring up story from text files based on buyer choice. 
+        
+def cryptid_sale():
+    print(random.choice(cryptid_inventory))
+    
+    
+    #selects a random cryptid from cryptid_stock
+
+def crytptid_sold():
+    #This variable would be defined when the imported "random" module does its thing on cryptid_inventory.
+    #It would include removing items from inventory and populating is_this_an_entry_point with the cryptid.
+    #Could include all the wallet and amount info too. 
+
+# Creating a variable to store the users wallet and amount spent.
+def is_this_an_entry_point():
+    buyer_data[wallet(), amount_of_tezos(), cryptid_sold]
+    # The way I see it, they can only buy one cryptid at a time, 
+    # Many transactions can be added to one contract before it is executed? 
+    
+#Simple button, opens input for wallet and amount. 
+def purchase():
+    input("Would you like to liberate a cryptid for " + ">" + cryptid_price + "<" +" Enter Y or N: ")
+        if purchase == str("Y") :
+            amount_of_tezos = int(input("Please verify 1 Tezos is amount to be sent: "))
+            while amount_of_tezos  == 1:
+                print ("A random cryptid will be released to your care ")
+                cryptid_sale
+                #initiates random choice from cryptid_inventory.
+            else:
+                print ("Please enter 1 Tezos")
+                amount_of_tezos
+
